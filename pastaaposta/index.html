@@ -1,16 +1,40 @@
 
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css.css" />
-    <title>Jogo de adivinhar número</title>
-  </head>
-  <body>
-    <h1>Jogo de adivinhar número</h1>
-    <p>Nós selecionamos um número de 1 a 100. Veja se você consegue adivinhar em 10 tentativas. Nós vamos o dizer se o número que você chutou está muito baixo ou muito alto.</p>
-        <a href="index2.html">
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da adivinhação</title>
+</head>
+<body>
+   
 
-          <button>JOGAR</button>
-  </body>
+    <h1> Jogo da adivinhação</h1>
+   
+   
+        <div class="container">
+            <h3>O jogo de adivinhar números é um jogo simples e divertido onde o jogador tenta adivinhar um número específico dentro de um intervalo definido.</h3>
+           
+            <h2 id="CMJ">Como jogar? </h2>
+            
+            <p>
+                O objetivo é adivinhar o número secreto escolhido pelo jogo dentro de um intervalo específico.<br><br>
+                O jogo informará ao jogador o intervalo de números possíveis para adivinhar. Por exemplo, pode ser de 1 a 100.<br><br>
+                O jogador terá um número limitado (normalmente são 10 tentativas) para adivinhar o número correto.<br><br>
+                O jogador insere um número no campo de entrada fornecido e clica em um botão para submeter sua tentativa.<br><br>
+                O jogo dará dicas(após cada tentativa) se você está colocando um número muito baixo ou muito alto.<br><br>
+                O jogo termina quando o jogador adivinha corretamente o número ou quando todas as tentativas são usadas.<br><br>
+                
+            </p>
+        </div>
+<button id="redirectButton">Ir para o jogo</button>
+
+<script src="script.js"></script>
+ 
+<script> document.getElementById("redirectButton").addEventListener("click", function() {
+    window.location.href = "index2.html";
+});
+</script>
+</body>
 </html>

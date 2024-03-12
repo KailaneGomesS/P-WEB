@@ -1,0 +1,88 @@
+html {
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Cor do espaÃ§o */
+    color: #FFF; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h3{ color: blue}
+h1 {
+    color: #FFF; /* Cor do tÃ­tulo */
+}
+.container {
+    text-align: center;
+}
+
+h4, h3, p {
+    font-size: 16px;
+
+}
+#CMJ {color: #800080;}
+p {
+    color: #FFF; /* Cor do texto */
+    font-size: 1.2em;
+}
+
+.form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: #FFF; /* Cor do texto */
+    font-size: 1.1em;
+}
+
+.guessField {
+    width: 50px;
+    height: 30px;
+    font-size: 1em;
+}
+
+.guessSubmit {
+    background-color: #FFF; /* Cor do botÃ£o */
+    color: #000; /* Cor do texto do botÃ£o */
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.resultParas {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultParas p {
+    font-size: 1.2em;
+}
+
+.lastResult {
+    margin-top: 10px;
+}
+
+.lowOrHi {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #9400D3; /* Roxo */
+    color: #FFF; /* Cor do texto do botÃ£o */
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800080; /* Roxo escuro */
+}
+}
